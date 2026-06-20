@@ -29,3 +29,9 @@ validateMaya('09171234567'); // true
 ## License
 
 MIT
+
+
+## API
+
+See source code and JSDoc comments for full API documentation.
+All exported functions include TypeScript types.
