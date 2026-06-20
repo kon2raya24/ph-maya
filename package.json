@@ -8,11 +8,19 @@
     "build": "tsc",
     "test": "vitest"
   },
-  "keywords": ["philippines", "maya", "paymaya", "mobile-payment"],
+  "keywords": [
+    "philippines",
+    "maya",
+    "paymaya",
+    "mobile-payment"
+  ],
   "author": "kon2raya",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.9.0",
     "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
