@@ -17,6 +17,7 @@ export function formatMaya(number: string): string {
  * @param number
  */
 export function validateMaya(number: string): boolean {
+  if (number === null || number === undefined) throw new Error("Invalid input");
   const cleaned = number.replace(/[^0-9]/g, "");
   return /^(\+63|63|0)?9\d{9}$/.test(cleaned);
 }
